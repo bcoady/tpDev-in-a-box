@@ -19,7 +19,11 @@ the Windows command line.
  - Clone or copy only the contents of tpDev-in-a-box into `vimfiles\bundle`
 	The master folder of this plugin should not be included.
 
-## Included Dependencies:
+ - Please review the Batteries included file:
+	\tpDev-in-a-box-master\tpDevBatteries\tpDevBatteries.vim
+	This file includes some settings that modify the behaviour of NERDTree, SnipMate, and some keymapping
+
+## Included Dependencies (thank these guys too):
 
 
  - 	[NERDTree](https://github.com/scrooloose/nerdtree)
