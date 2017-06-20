@@ -1,0 +1,1 @@
+﻿See the documentation for each dependent plugin for their respective licences.
