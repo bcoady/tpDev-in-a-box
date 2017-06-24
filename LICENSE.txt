@@ -1,1 +1,15 @@
-﻿See the documentation for each dependent plugin for their respective licences.
+﻿The license type for each plugin is listed below. Specific documents are in the plugin folders.
+
+AsyncRun: MIT License
+
+AutoComplPop: MIT License
+
+NERDTree: DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE v2
+
+SnipMate: MIT License 
+
+tlib_vim: GNU General Public License v3.0
+
+tpDev: MIT License
+
+vim-addon-mw-utils: GNU General Public License
