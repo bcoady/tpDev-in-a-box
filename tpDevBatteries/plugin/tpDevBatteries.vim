@@ -13,9 +13,14 @@ imap '<tab> <c-r><tab>
  "insert real tab
 imap <c-tab> <c-q><tab>
 
-"Map tag jumping
-nmap <cr> <c-]>
-nmap <c-cr> <c-T>
+"Tag Jumps except in special windows
+au FileType * :call TagMap()
+function! TagMap()
+	if &ft isnot 'qf' && &ft isnot 'startify'
+		nnoremap <buffer> <cr> <c-]>
+		nnoremap <buffer> <c-cr> <c-T>
+	endif
+endfunction
 
 "VIM internal caps lock <c-^>
 "TP files default to all caps by default
