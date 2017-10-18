@@ -16,7 +16,7 @@ imap <c-tab> <c-q><tab>
 "Tag Jumps except in special windows
 au FileType * :call TagMap()
 function! TagMap()
-	if &ft isnot 'qf' && &ft isnot 'startify'
+	if &ft isnot 'qf' && &ft isnot 'startify' && &ft isnot 'nerdtree'
 		nnoremap <buffer> <cr> <c-]>
 		nnoremap <buffer> <c-cr> <c-T>
 	endif
